@@ -1,11 +1,1 @@
-<!DOCTYPE html> 
-<html lang="en"> 
- <head> 
-  <title>Nama Anda</title>
- </head> 
- <body> 
-   <script language="JavaScript"> 
-   document.write("Belajar Pemrograman Javascript!"); 
-   </script> 
- </body>
- <html>
+#PraktikumWeb
