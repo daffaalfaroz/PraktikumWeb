@@ -5,8 +5,9 @@
   </head> 
   <body> 
     <script language="JavaScript">
-      document.write("Belajar Pemrograman Javascript!"); 
-    </script> 
+      document.write("Belajar Pemrograman Javascript!");
+    </script>
+     <script language="JavaScript" src="isi.js"></script>  
   </body>
   <html>
   document.writeln("<center>");
