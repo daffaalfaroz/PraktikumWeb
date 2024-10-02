@@ -7,10 +7,8 @@
     <script language="JavaScript">
       document.write("Belajar Pemrograman Javascript!");
     </script>
-     <script language="JavaScript" src="isi.js"></script>  
-  </body>
-  <html>
-   <p> 
+     <script language="JavaScript" src="isi.js"></script> 
+    <p> 
     <script language="JavaScript"> 
       document.writeln("<pre>"); 
       document.writeln("<H1>Operasi Aritmatik</H1>"); 
@@ -27,3 +25,6 @@
       document.writeln("<pre>");
       </script> 
   </p>
+  </body>
+  <html>
+   
