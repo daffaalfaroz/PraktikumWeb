@@ -1,25 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pengecekan Membership Restoran</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan JavaScript</title>
 </head>
 <body>
-    <script language="Javascript">
-        // Data pelanggan
-        let pelanggan = [
-            { nama: "Lena", membership: true },
-            { nama: "Rio", membership: false }
+    <p>
+        <script language="JavaScript">
+            
+        const customers = [
+            { name: 'Lena', isMember: true },
+            { name: 'Rio', isMember: false }
         ];
-        function cekDiskon(pelanggan) {
-            if (pelanggan.membership) {
-                console.log(pelanggan.nama + " Mendapatkan diskon 5%");
+        function checkMembership(customer) {
+            if (customer.isMember) {
+                console.log(customer.name + " Mendapatkan diskon 5%");
             } else {
-                console.log(pelanggan.nama + " Tidak mendapatkan diskon");
+                console.log(customer.name + " Tidak mendapatkan diskon");
             }
         }
-        for (let i = 0; i < pelanggan.length; i++) {
-            cekDiskon(pelanggan[i]);
-        }
-    </script>
+        customers.forEach(checkMembership);
+
+        </script>
+    </p>
 </body>
 </html>
